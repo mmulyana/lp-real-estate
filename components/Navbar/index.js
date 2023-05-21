@@ -8,7 +8,7 @@ export default function Navbar() {
   const router = useRouter()
 
   return (
-    <div className='fixed top-0 left-0 w-full py-8'>
+    <div className='fixed top-0 left-0 w-full py-8 z-50'>
       <div className='container flex justify-between items-center'>
         <Link href='/' className='flex items-center gap-2'>
           <div className='h-10 w-10 rounded-full bg-main flex items-center justify-center'>
